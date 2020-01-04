@@ -1,0 +1,49 @@
+/* Kiran Regmi
+   Assignment4
+   INFO 1311_WW
+   Rosas
+   3/30/2017
+ */
+ body{
+	background-color: #003366;
+	color: #ffffcc;
+	font-family: arial, helvetica, sans-serif;
+}
+div#wrapper{
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffcc;
+	color: #000066;
+	padding: 20px 0px 0px 10px;
+	border-radius: 15px;
+}
+header{
+	text-align:center;
+}
+nav{
+	float: left;
+	width: 150px;
+}
+nav ul{
+	list-style-type:none;
+	padding: 0px;
+}
+nav ul li{
+	padding:10px 0px 0px 0px;
+}
+main{
+	margin-left: 150px;
+	padding: 0px 20px 20px 0px;
+}
+footer{
+	font-size:.8em;
+	text-align: center;
+	border-top: 1px solid #003366
+}
+div.location{
+	color: #003366;
+}
+div.copyright{
+	font-style: italic;
+}

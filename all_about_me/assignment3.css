@@ -1,0 +1,58 @@
+/* Kiran Regmi
+   Allaboutme
+   Assignment3
+   INFO 1311_WW
+   Rosas
+   3/24/2017
+ */
+ 
+ body{
+ 	background-color: #666666;
+ 	background-image: linear-gradient(#ffffff,#666666);
+ 	background-repeat: no-repeat;
+ 	font-family: Aril, Helvetica, sans-serif;
+ 	margin: 0px;
+ }
+ 
+ div.container{
+ 	width: 960px;
+ 	padding: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: #ffffff;
+ 	box-shadow: 5px 5px 5px #1e1e1e;
+ 	border: 15px solid;
+ }
+ 
+ header{
+ 	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+ 	height: 150px;
+	border: 1px solid black;
+ }
+ 
+ h1{
+ 	font-family: Impact, sans-serif;
+ 	font-size: 4em;
+ 	padding-left: 10px;
+ 	text-decoration-color: hsla(0,0%,0%,0.2);
+ }
+ 
+ h2{
+ 	font-family: red-serif;
+	font-weight: bold;
+ 	font-size: 4em;
+	color: red;
+}
+ 
+ div.photo{
+ 	float: right;
+ 	width: 200px;
+ }
+ 
+ footer{
+	text-align: right;
+ 	border-top: 1px;
+ 	font-size: .8em;
+ 	font-style: Italic;
+  }

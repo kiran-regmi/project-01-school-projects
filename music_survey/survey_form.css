@@ -1,0 +1,46 @@
+/* 
+	Music Survey Form
+	Assignment7
+	INFO_1311_WW
+	Rosas
+	4/20/2017 
+*/
+
+#wrapper{
+	width: 680px;
+	margin: auto;
+	border-radius: 15px;
+}
+body{
+	background-color: #ffffff;
+
+}
+h1{
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	color: #630720; 
+	padding-left: 2px;
+}
+form{
+	background-color: #E8FFCC;
+	font-family: Arial, sans-serif;
+	color:#090500; 
+	padding:1px 0px 0px 5px;
+}
+fieldset{
+	padding: 0px 0px 10px 10px;
+}
+legend{
+	padding: 0px 10px 10px 2px;
+}
+a:link{
+	color: #ffffff;
+}
+footer{
+	background-color: #333333;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 2px;
+}

@@ -1,0 +1,85 @@
+<!-- Kiran Regmi
+	Music Survey
+	Assignment7
+	INFO_1311_WW
+	Rosas
+	4/20/2017
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Music Survey</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="survey_form.css">
+</head>
+
+<body>
+	<div id="wrapper">
+ 	<h1>Music Survey</h1>
+<!-- form begins here -->	
+	<form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp"> 
+	<input name="recipient" type="hidden" value="grosas@mccneb.edu" /> <!--- grosas@mccneb.edu-->	
+	<input name="subject" type="hidden" value="INFO1311 Form Assignment" />
+	<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~kregmi/info_1311_ww/module7/music_survey.html" />
+	<input name="return_link_title" type="hidden"  value="Home" />
+	<input name="bgcolor" type="hidden" value="#E8FFCC" />
+	<input name="background" type="hidden"  value="http://student.mccinfo.net/~kregmi/marble.jpg" />
+	<input name="title" type="hidden"  value="Thank you for taking the time to complete the form.  Below is the information that you submitted.  Please print this page and keep it for your records." />
+	<input name="text_color" type="hidden"  value="#000000" />
+	<input name="font_face" type="hidden"  value="Railway, Arial, Helvetica" />
+	<input name="font_size" type="hidden"  value="6" />
+	<p> A chance to win 7 days and nights in the Bahamas. It will only take less than 2 minutes. 
+	<p>Give us your feedback to improve our product offering. <strong>Lucky winner will be notified via email provided below.</strong> Thank you for your participation.</p>
+	
+	First Name: <small>(required)</small><br>
+	<input type="text" value="Kiran" size="25"><br><br>
+	Last Name: <small>(required)</small><br>
+	<input type="text" value="Regmi" size="25"><br><br>
+	Email: <small>(required)</small><br>
+	<input type="text" value="kiran@regmi.com" size="25"><br><br>
+	
+	<fieldset>
+		<legend>Select Your Favorite Types of Music:</legend>
+		<input type="checkbox" value="Pop">&nbsp;Pop<br>
+		<input type="checkbox" value="classical">&nbsp;Classical<br>
+		<input type="checkbox" value="rock">&nbsp;Rock<br>
+		<input type="checkbox" value="folk">&nbsp;Folk<br>
+		<input type="checkbox" value="rap">&nbsp;Rap<br>
+		<input type="checkbox" value="other">&nbsp;Other
+	</fieldset><br>
+		
+	<fieldset> 
+		<legend>Select how often you purchase Music Cds:</legend>
+		<input type="radio" value="weekly">&nbsp;Weekly<br>
+		<input type="radio" value="monthly">&nbsp;Monthly<br>
+		<input type="radio" value="afewcdseachyear">&nbsp;A few CDs each year<br>
+		<input type="radio" value="never purchase">&nbsp;Never Purchase
+	</fieldset><br>
+
+	<p>Select the method you use most often to purchase Music:</p>
+	<select>
+		<option label=" "> </option>
+		<option label="online"> Online</option>
+		<option label="retaistore"> Retail Store</option>
+		<option label="other"> Other</option>
+	</select> <br>
+
+	<p>What role does music play in your life?</p>
+	<textarea name="musicrole" rows="7" cols="60">
+	</textarea><br><br>
+
+	<input type="submit" value="Submit"> &nbsp;
+	<input type="reset" value="Clear Form">
+	</form>	<br>
+<!-- end of form-->
+<!-- hr width="100%" color="ff0000" size="1" -->
+<!-- footer begins here-->
+	<footer>
+	Copyright &copy; 2017. Kiran Regmi, Inc., All Rights Reseved &nbsp;
+	</footer> 
+<!-- end of footer-->
+	</div>
+</body>
+</html>
+	
+	
