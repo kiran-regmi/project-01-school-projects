@@ -1,2 +1,2 @@
-# project-01-school-projects
+# School-projects
 Collection of school projects
